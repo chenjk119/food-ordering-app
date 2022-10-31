@@ -1,0 +1,83 @@
+.image {
+  width: 500px;
+  height: 400px;
+}
+ 
+.price {
+  font-size: 20px;
+}
+ 
+.sizes {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.size_s {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.size_m {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.size_l {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+ 
+.size {
+  top: -5px;
+  right: -20px;
+  background-color: teal;
+  color: white;
+  font-size: 15px;
+  padding: 0;
+}
+ 
+.price {
+  color: #6300ee;
+  font-size: 24px;
+  font-weight: 400;
+  border-bottom: 1px solid #6300ee;
+}
+ 
+.ingredients {
+  display: flex;
+  margin-bottom: 30px;
+}
+ 
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+ 
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+ 
+.quantity {
+  width: 60px;
+  height: 40px;
+}
+ 
+.button{
+  height: 30px;
+  margin-left: 10px;
+  background-color: #6300ee;
+  color: white;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
